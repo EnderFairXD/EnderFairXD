@@ -1,10 +1,10 @@
 # Hola, soy Javier Cortés Vidal
 
-Técnico de sistemas y desarrollador en formación, de Sevilla.
+Técnico de sistemas y seguridad en formación, de Sevilla.
 Estudio **ASIR** (Administración de Sistemas Informáticos en Red) junto con un curso de
 especialización en **Ciberseguridad**. Vengo de **DAM** (Desarrollo de Aplicaciones Multiplataforma).
 
-*Systems technician and developer in training, based in Seville (Spain). Studying Network Systems
+*Systems & security technician in training, based in Seville (Spain). Studying Network Systems
 Administration (ASIR) and a Cybersecurity specialization course; previously Cross-Platform
 Application Development (DAM).*
 
@@ -17,8 +17,15 @@ Application Development (DAM).*
 - **IA local:** Ollama (Llama 3.1), LangChain, faster-whisper
 - **Datos y GIS:** PostgreSQL / PostGIS, Leaflet
 - **Sistemas:** GNU/Linux como entorno de trabajo diario, redes, administración de servidores y seguridad
+- **Seguridad:** pruebas de prompt injection y seguridad de agentes LLM
 
 ## Proyectos
+
+### Ciberseguridad
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [llm-agent-prompt-injection-lab](https://github.com/EnderFairXD/llm-agent-prompt-injection-lab) | Ataco con prompt injection indirecta un agente de correo con IA en mi servidor casero: sin defensas filtró credenciales en el 53 % de las ejecuciones, y solo las defensas de diseño (mínimo privilegio y confirmación humana) frenaron las filtraciones | Python · Ollama · Docker |
 
 ### Apps móviles y de escritorio
 
