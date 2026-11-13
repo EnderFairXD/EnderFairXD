@@ -14,7 +14,7 @@ Application Development (DAM).*
 
 - **Desarrollo:** Python (Django, GeoDjango, Streamlit), TypeScript, JavaScript, Node.js, Dart
 - **Móvil y escritorio:** React Native / Expo, Flutter, Tauri
-- **IA local:** Ollama (Llama 3.1), LangChain, faster-whisper
+- **IA local:** Ollama (Llama 3.1), faster-whisper, pdfplumber
 - **Datos y GIS:** PostgreSQL / PostGIS, Leaflet
 - **Sistemas:** GNU/Linux como entorno de trabajo diario, redes, administración de servidores y seguridad
 - **Seguridad:** pruebas de prompt injection y seguridad de agentes LLM
@@ -38,15 +38,9 @@ Application Development (DAM).*
 
 ### IA 100 % local (sin enviar datos a la nube)
 
-| Proyecto | Qué es |
-|---|---|
-| [STUDYBRAIN-AI](https://github.com/EnderFairXD/STUDYBRAIN-AI) | Tutor universitario: transcribe clases y genera apuntes, flashcards y tests |
-| [AI-CONTRACT-ANALYZER](https://github.com/EnderFairXD/AI-CONTRACT-ANALYZER) | Analizador de contratos en PDF |
-| [AI-MEETING-ASSISTANT](https://github.com/EnderFairXD/AI-MEETING-ASSISTANT) | Transcripción y análisis de reuniones |
-| [AI-EMAIL-ORGANIZER](https://github.com/EnderFairXD/AI-EMAIL-ORGANIZER) | Descarga correo por IMAP y lo clasifica con IA |
-| [AI-DOC-GENERATOR](https://github.com/EnderFairXD/AI-DOC-GENERATOR) | Genera README técnicos a partir de código Python (análisis AST + LLM) |
-
-*Todos con Python, Streamlit y Ollama (Llama 3.1).*
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| [suite-ia-local](https://github.com/EnderFairXD/suite-ia-local) | Cinco herramientas sobre un núcleo común: informe de riesgos de contratos, README de código Python (AST), triaje de correo con defensas contra prompt injection, minutas de reuniones y apuntes, flashcards o test de clases y temarios. Los textos largos se dividen y combinan en vez de recortarse sin avisar | Python · Streamlit · Ollama · faster-whisper |
 
 ### Web, GIS y automatización
 
